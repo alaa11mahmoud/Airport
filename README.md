@@ -41,13 +41,6 @@ The report consists of multiple visual components:
 
 ---
 
-## 📁 Project Files
-
-- `.pbix` Power BI file (Dashboard)
-- Screenshots of the dashboard
-- Data source (if allowed to be shared)
-
----
 
 ## 🚀 How to Use
 
@@ -72,9 +65,5 @@ Feel free to connect with me on [LinkedIn](#) or reach out if you'd like to coll
 
 ---
 
-## 📸 Dashboard Preview
 
-> _You can add screenshots or link to images here_
-
----
 
