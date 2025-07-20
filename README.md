@@ -30,7 +30,38 @@ The report consists of multiple visual components:
   Dynamic filter to analyze delay patterns by airline.
 
 ---
+## Project Steps
+# Here’s a breakdown of how the project was built:
 
+# 1 Data Source Preparation
+Imported raw flight delay data from Excel into Power BI.
+
+# 2 Data Modeling
+Created the following dimensional tables:
+
+Airport Dim: Contains airport names and details.
+Carriers Dim: Contains airline/carrier names and codes.
+Date Dim: Created using DAX to enable time-based analysis.
+Built a Fact Table for flight delay records with relationships to all dimensions.
+
+# 3 Data Transformation & DAX Calculations
+Cleaned and structured the data using Power Query.
+
+# 4 Created calculated columns and measures, including:
+TotalMinutes_Late
+Delay categories (Carrier, NAS, Weather, etc.)
+Delay % by reason
+On-time vs late flight percentage
+
+# 5 Dashboard Design & Visualization
+Designed a user-friendly dashboard using slicers, KPIs, and charts.
+Added filters by carrier, airport, and date to enhance interactivity.
+
+# 5 Insights Extraction
+Identified top airports, peak delay days, and high-delay carriers.
+Analyzed seasonal and weekly delay trends.
+
+---
 ## 🛠 Tools & Technologies
 
 - **Power BI**
